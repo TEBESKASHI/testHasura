@@ -1,0 +1,1 @@
+export { KnexPostgresConfig } from './KnexPostgresConfig';

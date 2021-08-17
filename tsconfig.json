@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "emitDecoratorMetadata": true,
+        "checkJs": true,
+        "outDir": "./dist",
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "lib": ["es2016", "dom"]
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules", "./node_modules", "./node_modules/*", "./node_modules/@types/node/index.d.ts"]
+}
